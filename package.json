@@ -4,7 +4,7 @@
   "description": "Connect to wifi: https://seomoz.atlassian.net/wiki/spaces/TEC/pages/76060941/Wireless+and+VPN+Information",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w --require @babel/register --require @babel/polyfill ./src/**/*.spec.js"
+    "test:watch": "mocha -w --require @babel/register --require @babel/polyfill ./tdd/**/*.spec.js"
   },
   "repository": {
     "type": "git",

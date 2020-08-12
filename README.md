@@ -1,7 +1,10 @@
-# ma-search-interview
+# Moz interview pairing exercise
 
-Connect to wifi:
-https://seomoz.atlassian.net/wiki/spaces/TEC/pages/76060941/Wireless+and+VPN+Information
+## Setup Code
+```
+npm i
+```
 
-* #master branch for HandleBars, jQuery
-* #react branch for React
+## For TDD
+1. open util.js and util.spec.js
+2. npm run test:watch
