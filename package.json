@@ -4,7 +4,7 @@
   "description": "Connect to wifi: https://seomoz.atlassian.net/wiki/spaces/TEC/pages/76060941/Wireless+and+VPN+Information",
   "main": "index.js",
   "scripts": {
-    "compile": "webpack",
+    "assets": "webpack-dev-server",
     "start": "node frontend/server.js",
     "test:watch": "mocha -w --require @babel/register --require @babel/polyfill ./tdd/**/*.spec.js"
   },
@@ -34,6 +34,7 @@
     "express": "^4.17.1",
     "mocha": "^7.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "webpack-dev-server": "^3.11.0"
   }
 }

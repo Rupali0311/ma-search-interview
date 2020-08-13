@@ -1,10 +1,14 @@
 const path = require('path');
 
+const filename = 'bundle.js';
+const outputDir = path.resolve(__dirname, 'public');
+const contentDir = path.resolve(__dirname, 'frontend');
+
 module.exports = {
-  entry: './frontend/Index.jsx',
+  entry: path.join(contentDir, 'Index.jsx'),
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public'),
+    path: outputDir,
+    filename: 'bundle.js'
   },
   mode: 'development',
   module: {
@@ -20,5 +24,13 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  devServer: {
+    contentBase: outputDir,
+    disableHostCheck: true,
+    host: '0.0.0.0',
+    proxy: {
+      '/api': 'http://app:3000',
+    }
+  },
 };
