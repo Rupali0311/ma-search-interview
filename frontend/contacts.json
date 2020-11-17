@@ -1,27 +1,27 @@
 [
   {
-    "firstName": "Andrew",
+    "firstName": "Brian",
+    "lastName": "Elephant",
+    "phoneNumber": "+12233334442"
+  },
+  {
+    "firstName": "Daphne",
     "lastName": "Alan",
+    "phoneNumber": "+12223334440"
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Davidson",
     "phoneNumber": "+12223334441"
   },
   {
-    "firstName": "Brian",
+    "firstName": "Elene",
     "lastName": "Ballard",
-    "phoneNumber": "+12233334442"
+    "phoneNumber": "+12223334448"
   },
   {
     "firstName": "Cathy",
     "lastName": "Crunch",
-    "phoneNumber": "+12223334443"
-  },
-  {
-    "firstName": "Daphne",
-    "lastName": "Davidson",
-    "phoneNumber": "+12223334444"
-  },
-  {
-    "firstName": "Elene",
-    "lastName": "Elephant",
-    "phoneNumber": "+12223334445"
+    "phoneNumber": "+1222333444"
   }
 ]
