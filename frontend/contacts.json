@@ -1,0 +1,27 @@
+[
+  {
+    "firstName": "Andrew",
+    "lastName": "Alan",
+    "phoneNumber": "+12223334441"
+  },
+  {
+    "firstName": "Brian",
+    "lastName": "Ballard",
+    "phoneNumber": "+12233334442"
+  },
+  {
+    "firstName": "Cathy",
+    "lastName": "Crunch",
+    "phoneNumber": "+12223334443"
+  },
+  {
+    "firstName": "Daphne",
+    "lastName": "Davidson",
+    "phoneNumber": "+12223334444"
+  },
+  {
+    "firstName": "Elene",
+    "lastName": "Elephant",
+    "phoneNumber": "+12223334445"
+  }
+]
